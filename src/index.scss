@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  transition: .3s;
+}
+
+body, input, button, textarea {
+  font-family: 'League Spartan', sans-serif;
+}
+
+input, button {
+  border-style: solid;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
